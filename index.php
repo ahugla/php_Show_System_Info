@@ -17,8 +17,8 @@ and open the template in the editor.
             echo " ".'</br>';
             
             echo "<font size=9' face='Arial'>";
-            echo "server name = " .gethostname().'</br>';
-            echo "IP address = " .getHostByName(getHostName()).'</br>';
+            //echo "server name = " .gethostname().'</br>';
+            echo "Local IP address = " .getHostByName(getHostName()).'</br>';
 
             echo " ".'</br>';
             echo " ".'</br>';
