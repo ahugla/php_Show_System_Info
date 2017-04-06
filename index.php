@@ -12,16 +12,21 @@ and open the template in the editor.
     <body>
         <?php
             echo "<font size='18' face='Arial'>";
-            echo "LOAD BALANCING TEST".'</br>';
+            echo "SHOW SYSTEM INFO".'</br>';
             echo " ".'</br>';
             echo " ".'</br>';
             
-            echo "<font size=9' face='Arial'>";
+            echo "<font size=3' face='Arial'>";
             //echo "server name = " .gethostname().'</br>';
-            echo "Local IP address = " .getHostByName(getHostName()).'</br>';
-
+            echo "Local IP address = " .getHostByName(getHostName());
             echo " ".'</br>';
+            echo "HOSTNAME = " .getenv('HOSTNAME');
             echo " ".'</br>';
+            echo "PATH = " .getenv('PATH');
+            echo " ".'</br>';
+            echo "VAR1= " .getenv('VAR1');
+            echo " ".'</br>';
+            echo "VAR2= " .getenv('VAR2');
             echo " ".'</br>';
             echo " ".'</br>';
             echo " ".'</br>';
@@ -30,8 +35,8 @@ and open the template in the editor.
             echo " ".'</br>';
             
             echo "<font size=5' face='Arial'>";
-            echo "v 1.0".'</br>';
-            echo "20 Dec 2016";
+            echo "v 1.1".'</br>';
+            echo "6 Avril 2017";
         ?>
     </body>
 </html>
