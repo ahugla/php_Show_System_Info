@@ -11,8 +11,7 @@ and open the template in the editor.
     </head>
     <body>
         <?php
-            echo "<font size='18' face='Arial'>";
-            echo "SHOW SYSTEM INFO".'</br>';
+            echo "<p> <font color=blue font face='arial' size='18pt'>SHOW SYSTEM INFO</font> </p>";  
             echo " ".'</br>';
             echo " ".'</br>';
             
@@ -35,8 +34,8 @@ and open the template in the editor.
             echo " ".'</br>';
             
             echo "<font size=5' face='Arial'>";
-            echo "v 1.1".'</br>';
-            echo "6 Avril 2017";
+            echo "v 1.2".'</br>';
+            echo "1 Aout 2017";
         ?>
     </body>
 </html>
